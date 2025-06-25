@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo.js";
+import ContactForm from "../components/ContactForm.js";
 
 export default function Info() {
   return (
@@ -17,6 +18,14 @@ export default function Info() {
         convivono idee, eventi, performance e convivialità. Nato per riscoprire
         il valore delle relazioni umane.
       </h1>
+      <div
+        style={{
+          marginLeft: "150px",
+          marginTop: "150px",
+        }}
+      >
+        <ContactForm></ContactForm>
+      </div>
     </div>
   );
 }

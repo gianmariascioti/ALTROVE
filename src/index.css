@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  /* cursor: url("../public/altrove_gif.gif"), auto; */
+  cursor: url("../public/altrove_gif_black.gif"), auto;
+}
+
+body,
+a,
+button,
+* {
+  cursor: none !important;
+}
